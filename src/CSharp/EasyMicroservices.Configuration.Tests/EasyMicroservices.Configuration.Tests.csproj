@@ -1,4 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -26,7 +27,7 @@
 	  <None Remove="Resources\InvalidConfigFile.json" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\EasyMicroservice.Configuration\EasyMicroservices.Configuration.csproj" />
+	  <ProjectReference Include="..\EasyMicroservices.Configuration\EasyMicroservices.Configuration.csproj" />
 	</ItemGroup>
 
 </Project>
